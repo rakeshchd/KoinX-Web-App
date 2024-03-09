@@ -1,0 +1,76 @@
+.team{
+    margin: 1rem 0rem;
+    background: #fff;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+}
+
+.team-heading{
+    padding-bottom: 1rem;
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.team .team-para{
+    padding-bottom: 1rem;
+    color: rgba(104, 103, 103, 1);
+    font-size: .9rem;
+    font-weight: 510;
+}
+
+.team p{
+    padding-bottom: 1rem;
+    color: rgba(84, 84, 84, 0.845);
+    font-size: .8rem;
+    font-weight: 450;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.team-card-part{
+    width: 100%;
+    background: rgba(133, 171, 253, 0.24);
+    padding: .8rem 1.8rem;
+    border-radius: .5rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.profile-image{
+    width: 6.5rem;
+    height: 6.5rem;
+    object-fit: cover;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+
+.card-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+}
+
+.profile-name{
+    font-size: .8rem;
+}
+
+.profile-position{
+    font-size: .7rem;
+    font-weight: 500;
+    color: rgba(104, 103, 103, .7);
+}
+
+@media screen and (max-width: 850px) {
+    .team-card-part{
+        flex-direction: column;
+    }
+}

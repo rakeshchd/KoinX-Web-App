@@ -1,0 +1,101 @@
+.part-one{
+    margin: 2rem 0;
+}
+
+.part-one-top{
+    display: flex;
+    align-items: center;
+}
+
+.part-one-top h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+.part-one-top .green{
+    font-size: .9rem;
+    font-weight: 600;
+    font-weight: 500;
+    padding: 0 .5rem;
+    border-radius: .1rem;
+    color: rgb(1, 168, 90);
+    background: rgb(165, 244, 207, 0.4);
+}
+
+.part-one-top .red{
+    font-size: .9rem;
+    font-weight: 600;
+    font-weight: 500;
+    padding: 0 .5rem;
+    border-radius: .1rem;
+    color: rgb(216, 0, 0);
+    background: rgba(254, 98, 98, 0.3);
+}
+
+.part-one-top .change-pricing i{
+    padding-right: .3rem;
+}
+
+.part-one-top .round-a-clock{
+    padding: 0 .8rem;
+    font-size: .8rem;
+    font-weight: 550;
+    color: #686767;
+}
+
+.part-one-bottom h2{
+    padding-top: .1rem;
+    align-items: center;
+    font-weight: 530;
+    font-size: 1rem;
+    color: #222;
+}
+
+hr{
+    margin: 1rem 0;
+    border: none;
+    height: 2px;
+    background: rgba(193, 193, 193, 0.5);
+    transition: background-color 0.5s ease;
+}
+
+@media screen and (max-width: 850px) {
+    .part-one{
+        margin: 1.2rem 0;
+        padding: 1.5rem 1.5rem;
+    }
+
+    .part-one-top h1{
+        font-size: 2.2rem;
+        margin-right: 1rem;
+    }
+
+    .part-one-top .green{
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0.1rem .3rem;
+        border-radius: .3rem;
+        text-wrap: nowrap;
+
+    }
+    
+    .part-one-top .red{
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0.1rem .3rem;
+        border-radius: .3rem;
+        text-wrap: nowrap;
+    }
+
+    .part-one-top .round-a-clock{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .part-one-bottom h2{
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+}

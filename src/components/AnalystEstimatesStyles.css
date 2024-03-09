@@ -1,0 +1,114 @@
+.analyst-estimates{
+    display: flex;
+    margin-bottom: 3.5rem;
+    padding: 0rem 1.5rem;
+}
+
+.circle-wala{
+    width: 20%;
+    background:  rgb(165, 244, 207, 0.4);
+    color: rgb(1, 168, 90);
+    padding: 3rem 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circle-wala p{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.percent-wala{
+    width: 55%;
+    margin-left: 1rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.percent-wala div{
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.percent-wala div p{
+    width: 10%;
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgba(104, 103, 103, 1);
+}
+
+.buy hr{
+    width: 70%;
+    margin: auto .5rem;
+    background: rgb(1, 168, 90);
+    height: .5rem;
+    border-radius: 3rem;
+}
+
+.hold hr{
+    width: 10%;
+    margin: auto .5rem;
+    background: rgba(104, 103, 103, .7);
+    height: .5rem;
+    border-radius: 3rem;
+}
+
+.sell hr{
+    width: 20%;
+    margin: auto .5rem;
+    background: red;
+    height: .5rem;
+    border-radius: 3rem;
+}
+
+@media screen and (max-width: 850px) {
+    .analyst-estimates{
+        display: flex;
+        margin-bottom: 3.5rem;
+        padding: 0rem 1rem;
+    }
+
+    .circle-wala{
+        width: 27%;
+        margin: 0rem;
+        padding: 2rem 1rem;
+    }
+
+    .circle-wala p{
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 0rem;
+    }
+
+    .percent-wala div{
+        padding-bottom: .6rem;
+    }
+
+    .buy hr{
+        width: 65%;
+        margin: auto .4rem;
+        margin-left: 1.4rem;
+        background: rgb(1, 168, 90);
+        height: .4rem;
+        border-radius: 3rem;
+    }
+    
+    .hold hr{
+        width: 9%;
+        margin: auto .4rem;
+        margin-left: 1.4rem;
+        background: rgba(104, 103, 103, .7);
+        height: .4rem;
+        border-radius: 3rem;
+    }
+    
+    .sell hr{
+        width: 18%;
+        margin: auto .4rem;
+        margin-left: 1.4rem;
+        background: red;
+        height: .4rem;
+        border-radius: 3rem;
+    }
+}

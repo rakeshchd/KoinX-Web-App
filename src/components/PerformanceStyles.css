@@ -1,0 +1,177 @@
+.performance {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 1rem;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+    padding-bottom: 3rem;
+}
+
+.performance h1{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.today-high-low{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+}
+
+.today-low h3{
+    font-size: .8rem;
+    font-weight: 450;
+    color: #686767;
+}
+
+.today-low p{
+    font-size: 1rem;
+    font-weight: 510;
+    color: #686767;
+}
+
+.today-high h3{
+    font-size: .8rem;
+    font-weight: 450;
+    color: #686767;
+}
+
+.today-high p{
+    font-size: 1rem;
+    font-weight: 510;
+    color: #686767;
+}
+
+.range-bar{
+    width: 60%;
+    height: .3rem;
+    border-radius: 2rem;
+    background: linear-gradient(to right, red, yellow, green);
+}
+
+.arrow-today{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -45px;
+    left: 12%;
+}
+
+.performance h2{
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #222;
+}
+
+.fa-circle-exclamation{
+    margin-left: .2rem;
+    transform: scaleY(-1);
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.fundamentals{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fundamentals-row{
+    min-width: 15rem;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fundamentals-subpart{
+    display: flex;
+    padding-right: .3rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 2.5rem;
+    align-items: center;
+    border-bottom: 1.5px solid rgba(104, 103, 103, 0.5);
+}
+
+.fundamentals-subpart h4{
+    font-size: .8rem;
+    font-weight: 550;
+    color: rgba(104, 103, 103, 0.5);
+}
+
+.fundamentals-subpart p{
+    font-size: .7rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.fundamentals-subpart p .upper-red{
+    color: red;
+}
+
+.fundamentals-subpart p .upper-green{
+    color: rgb(0, 186, 0);
+}
+
+.fundamentals-subpart .lower{
+    font-size: .5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .performance {
+        padding: 1rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .performance h1{
+        font-size: 1.4rem;
+    }
+    
+    .today-high-low{
+        margin: 1.2rem 0;
+    }
+    
+    .today-low h3{
+        font-size: .6rem;
+    }
+    
+    .today-low p{
+        font-size: .8rem;
+    }
+    
+    .today-high h3{
+        font-size: .6rem;
+    }
+    
+    .today-high p{
+        font-size: .8rem;
+    }
+
+    .arrow-today{
+        top: -40px;
+    }
+
+    .arrow-today p{
+        font-size: .8rem;
+        font-weight: 500;
+    }
+    
+    .performance h2{
+        font-size: 1rem;
+    }
+    
+    .performance h2 i{
+        margin-left: .3rem;
+        font-size: .9rem;
+    }
+    
+    .fundamentals{
+        flex-direction: column;
+    }
+
+    .fundamentals-row{
+        min-width: 15rem;
+        width: 100%;
+    }
+}

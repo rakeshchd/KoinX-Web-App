@@ -1,0 +1,63 @@
+.tradingview-widget-container{
+  margin: 0;
+}
+
+.chart-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.chart-header h1{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.chart-header div{
+  padding: 0rem;
+}
+
+.intervals-btn{
+  font-size: .9rem;
+  padding: 0 .2rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #686767;
+  border: none;
+  border-radius: .6rem;
+  margin-right: .2rem;
+  cursor: pointer;
+}
+
+.interval-active{
+  background: rgb(148, 148, 255, 0.3);
+  color: rgb(0, 0, 197);
+}
+
+@media screen and (max-width: 850px) {
+  .tradingview-widget-container{
+    padding: 0rem 1.5rem;
+    width: 100%;
+    height: 500;
+  }
+  
+  .chart-header{
+    padding: 0rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chart-header h1{
+    font-size: 1.3rem;
+  }
+
+  .chart-header div{
+    padding: 0rem;
+  }
+
+  .intervals-btn{
+    font-size: .8rem;
+    padding: 0rem .2rem;
+    margin-right: .5rem;
+  }
+}

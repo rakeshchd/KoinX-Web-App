@@ -1,0 +1,11 @@
+.footer-trending{
+    margin-top: 5rem;
+    padding: 4rem 2rem;
+    background: #fff;
+}
+
+.footer-trending h2{
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 550;
+}

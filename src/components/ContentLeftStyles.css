@@ -1,0 +1,109 @@
+.content-left{
+    width: 68%;
+    height: 100%;
+}
+
+.main-graph-box{
+    background: #fff;
+    padding: 2rem 1.4rem;
+    margin: 1rem 0;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+    border-radius: 1rem;
+}
+
+.graph-heading{
+    display: flex;
+    align-items: center;
+}
+
+.bitcoin-logo{
+    height: 2.5rem;
+}
+
+.bitcoin-heading{
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.btc{
+    font-size: .9rem;
+    font-weight: 600;
+    color: #686767;
+}
+
+.rank{
+    font-size: 1rem;
+    margin-left: 1.3rem;
+    padding: .3rem .5rem;
+    background: #686767;
+    border-radius: .5rem;
+    color: #fff;
+}
+
+.bitcoin-chart{
+    padding: 0rem;
+    padding-bottom: 1rem;
+}
+
+.features-bar{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.chart-features{
+    margin-top: 1rem;
+    color: #686767;
+    text-decoration: none;
+    flex-direction: column;
+    margin-right: 1.2rem;
+    font-weight: 550;
+    margin-bottom: 0;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 850px) {
+    .content-left{
+        width: 100%;
+    }
+
+    .main-graph-box{
+        width: 100%;
+        background: transparent;
+        padding: 1.2rem 0;
+        margin: 0;
+        border: none;
+    }
+
+    .bitcoin-logo{
+        height: 2.4rem;
+    }
+
+    .bitcoin-heading{
+        padding: 0 .5rem;
+        font-size: 1.7rem;
+        font-weight: 510;
+    }
+
+    .btc{
+        font-size: 1rem;
+    }
+
+    .rank{
+        font-size: 1rem;
+        font-weight: 410;
+        margin-left: 1.3rem;
+        padding: .2rem .4rem;
+        border-radius: .2rem;
+        text-wrap: nowrap;
+    }
+
+    .usd-inr{
+        margin-top: 1.5rem;
+        background-color: #fff;
+        border: 1px solid rgba(193, 193, 193, 0.5);
+        border-radius: 1rem;
+    }  
+}

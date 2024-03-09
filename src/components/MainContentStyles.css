@@ -1,0 +1,35 @@
+.main-content{
+    padding: 2rem 3rem;
+}
+
+.content-one{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #686767;
+}
+
+.content-part{
+    font-weight: 550;
+    color: #222;
+}
+
+.content-two{
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 850px) {
+    .main-content{
+        padding: 2rem 1.3rem;
+    }
+
+    .content-one{
+        font-size: 1.3rem;
+        font-weight: 420;
+    }
+
+    .content-two{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

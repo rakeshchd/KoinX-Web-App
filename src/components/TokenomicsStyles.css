@@ -1,0 +1,58 @@
+.tokenomics{
+    margin: 1rem 0rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+}
+
+.tokenomics-heading{
+    padding-bottom: 1rem;
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.tokenomics h3{
+    padding-bottom: 1rem;
+    color: #222;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.tokenomics p{
+    padding-bottom: 1rem;
+    color: rgba(104, 103, 103, 1);
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+.pie-chart{
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.donut-chart{
+    width: 35%;
+}
+
+.tokenomics .investors, .tokenomics .found{
+    color: rgba(104, 103, 103, 1);
+    font-size: .8rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+
+.tokenomics .investors i{
+    font-size: .55rem;
+    color: #0051ff;
+    margin-right: .5rem;
+}
+
+.tokenomics .found i{
+    font-size: .55rem;
+    color: orange;
+    margin-right: .5rem;
+}

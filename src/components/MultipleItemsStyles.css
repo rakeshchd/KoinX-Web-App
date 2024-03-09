@@ -1,0 +1,67 @@
+.slider-box{
+    padding: 2rem .5rem;
+    overflow: hidden;
+}
+
+.border-slider{
+    border: 2px solid rgba(193, 193, 193, 0.5);
+    border-radius: 1rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.coins-part-one{
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.coins-part-one img{
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.coins-part-one h3{
+    font-size: .85rem;
+    font-weight: 450;
+    color: #222222a2;
+}
+
+.coins-part-one .green{
+    font-size: .65rem;
+    font-weight: 600;
+    font-weight: 500;
+    padding: 0 0.2rem;
+    border-radius: .1rem;
+    color: rgb(1, 168, 90);
+    background: rgba(165, 244, 207, 0.315);
+}
+
+.coins-part-one .red{
+    font-size: .65rem;
+    font-weight: 600;
+    font-weight: 500;
+    padding: 0 .2rem;
+    border-radius: .1rem;
+    color: rgb(216, 0, 0);
+    background: rgba(254, 98, 98, 0.203);
+}
+
+.slider-box h4{
+    margin-top: .5rem;
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+.coins-graph{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.coins-graph-image{
+    width: 10rem;
+}

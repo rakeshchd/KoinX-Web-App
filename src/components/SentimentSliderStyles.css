@@ -1,0 +1,65 @@
+.sentiment-slider{
+    width: 100%;
+    height: 100%;
+}
+
+.blue{
+    padding: 1rem;
+    background: #0051ff29;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.green{
+    padding: 1rem;
+    background: #5bf96d41;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.yellow{
+    padding: 1rem;
+    background: rgba(255, 255, 135, 0.42);
+    border-radius: 1rem;
+    display: flex;
+}
+
+.red{
+    padding: 1rem;
+    background: rgba(249, 122, 122, 0.37);
+    border-radius: 1rem;
+    display: flex;
+}
+
+.blue .fa-circle-user{
+    color: #0051ff;
+}
+
+.green .fa-circle-user{
+    color: #008d10;
+}
+
+.yellow .fa-circle-user{
+    color: rgb(152, 152, 0);
+}
+
+.red .fa-circle-user{
+    color: rgb(247, 0, 0);
+}
+
+
+.fa-circle-user{
+    font-size: 2.5rem;
+    padding-right: .5rem;
+}
+
+.slider-upper{
+    font-size: .8rem;
+    font-weight: 600;
+    padding-bottom: .4rem
+}
+
+.slider-lower{
+    font-size: .7rem;
+    font-weight: 450;
+}

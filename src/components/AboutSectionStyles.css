@@ -1,0 +1,149 @@
+.about-section{
+    margin: 1rem 0rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+}
+
+.about-section-heading{
+    padding-bottom: 1rem;
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.already-holding{
+    padding-bottom: 0rem;
+    color: #222;
+    margin-bottom: .7rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.about-section h3{
+    padding-bottom: .5rem;
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+.about-section p{
+    padding-bottom: .5rem;
+    color: rgba(104, 103, 103, 1);
+    font-size: .95rem;
+    font-weight: 500;
+}
+
+.about-section-card{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card-part-one{
+    width: 47%;
+    display: flex;
+    padding: .6rem;
+    height: 8.5rem;
+    background: rgba(141, 173, 255, 0.671);
+    border-radius: .7rem;
+}
+
+.card-part-one img{
+    width: 30%;
+    border-radius: .7rem;
+}
+
+.card-part-two{
+    width: 47%;
+    display: flex;
+    padding: .6rem;
+    height: 8.5rem;
+    background: rgba(141, 173, 255, 0.671);
+    border-radius: 1rem;
+}
+
+.card-part-two img{
+    width: 30%;
+    border-radius: 1rem;
+}
+
+.card-heading{
+    width: 70%;
+    padding: .4rem 1.5rem;
+}
+
+.card-heading h3{
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.card-heading button{
+    color: #222;
+    padding: .3rem .8rem;
+    font-size: .95rem;
+    border: none;
+    font-weight: 600;
+    border-radius: .5rem;
+}
+
+.card-heading button i{
+    margin-left: .5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .about-section-card{
+        flex-direction: column;
+    }
+
+    .about-section-card{
+        gap: .5rem;
+    }
+
+    .about-section h3{
+        padding-bottom: 1rem;
+    }
+    
+    .about-section p{
+        padding-bottom: 1rem;
+    }
+
+    .card-part-one, .card-part-two{
+        width: 100%;
+        gap: .1rem;
+        height: 7rem;
+        border-radius: .3rem;
+    }
+
+    .card-part-one img, .card-part-two img{
+        width: 32%;
+        border-radius: .3rem;
+    }
+
+    .already-holding{
+        padding-bottom: .5rem;
+        font-size: 1.3rem;
+        font-weight: 550;
+    }
+
+    .card-heading{
+        width: 65%;
+        padding: .4rem 1rem;
+    }
+
+    .card-heading h3{
+        font-size: .9rem;
+    }
+    
+    .card-heading button{
+        padding: .35rem .65rem;
+        font-size: .7rem;
+        border-radius: .4rem;
+    }
+    
+    .card-heading button i{
+        margin-left: .3rem;
+    }
+}

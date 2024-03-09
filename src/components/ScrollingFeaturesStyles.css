@@ -1,0 +1,30 @@
+.scrollingbar {
+  z-index: 1;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-bottom: 1.5px solid rgb(104, 103, 103, 0.4);
+  }
+  
+  .scrollingbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollingbar-item {
+    z-index: 1;
+    border-radius: .2rem;
+    font-weight: 500;
+    margin-right: .3rem;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .scrollingbar-item:hover {
+    background-color: rgba(0, 81, 255, 0.066);
+  }
+  
+  .scrollingbar-item.scrolling-selected {
+    color: #0051ff;
+    font-weight: 600;
+    border-bottom: 4px solid #0051ff;
+  }

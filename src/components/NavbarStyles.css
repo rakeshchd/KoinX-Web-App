@@ -1,0 +1,143 @@
+.navbarItems {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+}
+
+.koinxLogo {
+    color: #222;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 15vh;
+}
+
+.navMenu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 1rem;
+    background: #fff;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #222;
+    background: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    white-space: nowrap;
+}
+
+.nav-links-mobile {
+    text-decoration: none;
+    border-radius: .5rem;
+    background: #0051ff;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    white-space: nowrap;
+}
+
+.nav-links:hover {
+    background-color: #222;
+    color: #fff;
+    border-radius: .5rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav-links-mobile:hover {
+    background: #222;
+}
+
+.menuIcons {
+    display: none;
+}
+
+
+@media screen and (max-width: 850px) {
+    .navbarItems {
+        z-index: 99;
+    }
+
+    .koinxLogo {
+        width: 15vh;
+    }
+
+    .navMenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: #fff;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px 0 40px 0;
+        margin: 0;
+    }
+
+    .navMenu.active {
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 1);
+        border-radius: 2rem;
+        transition: all .15s ease-in-out;
+    }
+
+    .nav-links {
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        padding: 1.2rem 0;
+    }
+
+    .nav-links:hover {
+        background: #222;
+        transition: none;
+    }
+
+    .menuIcons {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menuIcons i {
+        font-size: 2rem;
+        color: #222;
+    }
+
+    .nav-links-mobile {
+        padding: 1rem 5rem;
+        border-radius: 1.5rem;
+        background: #0051ff;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    .nav-links-mobile:hover {
+        background: #222;
+    }
+}
+
