@@ -46,13 +46,14 @@
     display: flex;
     padding: .6rem;
     height: 8.5rem;
-    background: rgba(141, 173, 255, 0.671);
+    background: #0051ff;
     border-radius: .7rem;
 }
 
 .card-part-one img{
     width: 30%;
     border-radius: .7rem;
+    object-fit: cover;
 }
 
 .card-part-two{
@@ -60,13 +61,14 @@
     display: flex;
     padding: .6rem;
     height: 8.5rem;
-    background: rgba(141, 173, 255, 0.671);
+    background: #0051ff;
     border-radius: 1rem;
 }
 
 .card-part-two img{
     width: 30%;
     border-radius: 1rem;
+    object-fit: cover;
 }
 
 .card-heading{

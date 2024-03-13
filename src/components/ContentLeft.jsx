@@ -28,7 +28,7 @@ function ContentLeft() {
         <div className="content-left">
             <div className="main-graph-box">
                 <div className="graph-heading">
-                    <img src="src\assets\bitcoin-logo.png" alt="bitcoin-logo" className="bitcoin-logo" />
+                    <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="bitcoin-logo" className="bitcoin-logo" />
                     <h1 className="bitcoin-heading">Bitcoin</h1>
                     <p className="btc">BTC</p>
                     <p className="rank">Rank #1</p>

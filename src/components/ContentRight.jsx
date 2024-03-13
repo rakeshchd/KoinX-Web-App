@@ -31,7 +31,7 @@ function ContentRight(){
                     <p className='part-one-data'>With our range of features that you can equip for free, KoinX you to be more educated and aware of your tax reports.</p>
                 </div>
                 <div className='right-part-two'>
-                    <img src="src\assets\blue.png" alt="" />
+                    <img src="https://png.pngtree.com/png-clipart/20220102/original/pngtree-blue-business-technology-office-boys-png-material-png-image_6992851.png" alt="" />
                 </div>                
             </div>
             <button>Get Started for Free <i class="fa-solid fa-arrow-right"></i></button>
