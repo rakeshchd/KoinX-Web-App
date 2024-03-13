@@ -16,11 +16,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbarItems">
-<<<<<<< HEAD
                 <img src=".\src\assets\koinx-logo.png" alt="koinx-logo" className="koinxLogo"/>
-=======
-                <img src=".\assets\koinx-logo.png" alt="koinx-logo" className="koinxLogo"/>
->>>>>>> abe607ff20d63811764a635c2e21f494ab816c5f
 
                 <div className="menuIcons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
